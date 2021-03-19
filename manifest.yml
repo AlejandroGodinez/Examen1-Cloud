@@ -1,3 +1,4 @@
+applications:
 - name: Cloud-IBM-CF
   buildpacks:
     - sdk-for-nodejs
