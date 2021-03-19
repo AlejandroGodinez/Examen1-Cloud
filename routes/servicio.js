@@ -48,7 +48,7 @@ router.route('/').post((req, res)=>{
           res.send('error:', err);
       });
     }else{
-      res.send({error: 'Missing sendText tag'})
+      res.send({error: 'Missing sendText tag on JSON'})
     }
 
 })
