@@ -1,0 +1,9 @@
+- name: Cloud-IBM-CF
+  buildpacks:
+    - sdk-for-nodejs
+  path: .
+  command: npm start
+  instances: 1
+  memory: 256M
+  env:
+    NPM_CONFIG_PRODUCTION: false
