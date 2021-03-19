@@ -21,13 +21,5 @@ router.use('/', (req, res) => {
     )
 })
 
-//ruta para el livenessprobe del yaml a realizar para el eks y kubernets
-router.use('/revisasivivo', (req,res)=>{
-    res.send(
-        {
-           status:"working" 
-        }
-    )
-})
 
 module.exports = router;

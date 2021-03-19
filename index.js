@@ -4,7 +4,7 @@ const cors = require('cors')
 require('dotenv').config();
 
 // importamos el router
-const router = require('./src/routes/routes')
+const router = require('./routes/routes')
 
 // de express nos traemos lo necesario
 const { json, urlencoded } = express
@@ -13,7 +13,7 @@ const { json, urlencoded } = express
 const app = express()
 
 // definimos un puerto por el cual escucharemos peticiones
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8888
 const HOST = process.env.HOST || "0.0.0.0"
 
 // configuraciones para nuestro server
